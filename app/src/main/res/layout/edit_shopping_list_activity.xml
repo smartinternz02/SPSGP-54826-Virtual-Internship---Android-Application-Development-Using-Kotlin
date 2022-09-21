@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5sp"
+    tools:context=".activities.EditShoppingListActivity">
+
+    <TextView
+        android:layout_margin="5sp"
+        android:id="@+id/shopping_list_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/test_name"
+        android:textSize="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"/>
+
+    <ExpandableListView
+        android:layout_margin="5sp"
+        android:id="@+id/product_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shopping_list_edit_name"
+        android:layout_above="@id/save_product_btn" />
+
+    <Button
+        android:layout_margin="10sp"
+        android:id="@+id/save_product_btn"
+        android:onClick="saveCheckedProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_above="@id/add_product_btn"
+        android:text="@string/save_checked_products"/>
+
+    <Button
+        android:layout_margin="10sp"
+        android:id="@+id/add_product_btn"
+        android:onClick="showAddProductDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/add_product"/>
+
+</RelativeLayout>

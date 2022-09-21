@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Grocery List</string>
+    <string name="new_shopping_list">Create new Shopping List</string>
+    <string name="test_name">Test name</string>
+    <string name="test_products_quantity">2 items</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+    <string name="test_name_product">Product name</string>
+    <string name="test_product_quantity">10 kg</string>
+    <string name="add_product">Add a product</string>
+    <string name="product_name_hint">Product name</string>
+    <string name="product_quantity_hint">Quantity</string>
+    <string name="product_unit_hint">Unit</string>
+    <string name="shopping_list_name_hint">Shopping list name</string>
+    <string name="delete">Delete</string>
+    <string name="any_regrets">Any regrets ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="edit">Edit</string>
+    <string name="save_checked_products">Save checked products</string>
+    <string name="no_shopping_list">No shopping list saved. Please create one to start</string>
+    <string name="string_with_spaces">%s %s</string>
+    <string name="product_quantity_0">0 product</string>
+    <string name="test_product_category">Product category</string>
+    <string name="category">New category</string>
+    <string name="category_name_hint">Category name</string>
+    <plurals name="products_quantity">
+        <item quantity="one">1 product</item>
+        <item quantity="other">%d products</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_margin="5sp"
+        android:id="@+id/shopping_list_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/shopping_list_name_hint"/>
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_margin="5sp"
+        android:id="@+id/create_shopping_list_btn"
+        android:text="@string/create"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
