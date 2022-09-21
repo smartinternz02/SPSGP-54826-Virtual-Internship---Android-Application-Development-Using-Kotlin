@@ -15,6 +15,6 @@ With this application you can create, modify and remove several shopping list wi
 Report of this Project: [Report](https://github.com/smartinternz02/SPSGP-54826-Virtual-Internship---Android-Application-Development-Using-Kotlin/blob/master/Report/Project-Report.pdf)
 
 ## Download
-To download this application click [here]()
+To download this application click [here](https://github.com/smartinternz02/SPSGP-54826-Virtual-Internship---Android-Application-Development-Using-Kotlin/blob/master/APK/app.apk)
 
 
