@@ -1,6 +1,6 @@
 # Virtual-Internship
 
-Android-Application-Development-Using-Kotlin
+### Android-Application-Development-Using-Kotlin: 
 With this application you can create, modify and remove several shopping list with the items you want (you can edit or remove them too)
 
 ### Name- Vedant Bhosale
